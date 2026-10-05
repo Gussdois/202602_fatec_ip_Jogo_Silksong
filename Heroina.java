@@ -1,3 +1,5 @@
+import lombok.Getter;
+@Getter
 public class Heroina {
     private String nome;
     private int mascaras;
@@ -7,15 +9,6 @@ public Heroina(String nome){
     this.nome = nome;
     this.mascaras = 5;
     this.seda = 0;
-}
-public String getNome(){
-    return nome;
-}
-public int getMascaras(){
-    return mascaras;
-}
-public int getSeda(){
-    return seda;
 }
 public void atacar(){
     System.out.println(this.nome + " ataca com a agulha!");
