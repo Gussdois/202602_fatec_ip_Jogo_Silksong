@@ -7,5 +7,7 @@ public class jogo {
         System.out.println("=================================");
         String nome = JOptionPane.showInputDialog("Qual o nome do Jogador? ");
         System.out.println("Carregando save de "+ nome + "...");
+        Heroina hornet = new Heroina("Hornet");
+        System.out.println(hornet.toString());
     }
 }
